@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 100%;
+    line-height: 1;
+}
+html, body {
+    height: 100%;
+}
+header {
+    min-height: 50px;
+    background: rgb(255, 158, 158);
+}
+h1 {
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-size: 21px;
+}
+.block-chat {
+    height: calc(100% - 150px);
+    height: -moz-calc(100% - 150px);
+    height: -webkit-calc(100% - 150px);
+    width: 100%;
+    top: 50px;
+}
+.left-column {
+    width: 200px;
+    background: rgb(199, 248, 134);
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+.right-column {
+    background: rgb(245, 253, 210);
+    width: calc(100% - 200px);
+    float: right;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+footer {
+    min-height: 100px;
+    background: rgb(190, 255, 190);
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    width: 100%;
+}
